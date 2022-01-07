@@ -1,0 +1,51 @@
+{{ header }}
+<div class="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <section class="section-md">
+      <div class="container">
+        <div class="row">
+          {% if success %}
+            <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}</div>
+          {% endif %}
+          {% if error_warning %}
+            <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+          {% endif %}
+
+          <div class="col-md-12">
+            <div class="dashboard-content profile-setting">
+              <div class="dashboard-item head-item">
+                <p>
+                  {{ text_welcome }}
+                </p>
+              </div><!--End dashboard-item-->
+
+              <form class="dashboard-form" action="{{ action }}" method="post" enctype="multipart/form-data">
+                <div class="form-group reset-pass">
+                  <label>{{ text_password }}</label>
+                  <input type="password" name="password" value="" placeholder="{{ entry_password }}" id="input-password" class="form-control">
+                  {% if error_password %}
+                    <div class="text-danger">{{ error_password }}</div>
+                  {% endif %}
+                  <input type="password" name="confirm" value="" placeholder="{{ entry_confirm }}" id="input-confirm" class="form-control">
+                  {% if error_confirm %}
+                    <div class="text-danger">{{ error_confirm }}</div>
+                  {% endif %}
+                </div><!--End Form-group-->
+
+                <button class="custom-btn" type="submit">{{ button_continue }}</button>
+              </form><!--End Form-->
+            </div><!--End Dashboard-content-->
+
+          </div><!--End Col-md-9-->
+        </div><!--End Row-->
+      </div><!-- End container -->
+    </section><!-- End Section -->
+  </div><!--End Page-content-->
+  {{ footer }}

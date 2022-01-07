@@ -1,0 +1,109 @@
+{{ header }}
+<div class="main" role="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <section class="section-md">
+      <div class="container">
+        <div class="row">
+          {% if success %}
+            <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}</div>
+          {% endif %}
+          {% if error_warning %}
+            <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+          {% endif %}
+          {{  column_right }}
+          <div class="col-md-9">
+            <div class="dashboard-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="dashboard-item head-item">
+                    <p>
+                      {{  text_welcoming }}
+                    </p>
+                  </div><!--End dashboard-item-->
+                </div><!--End Col-xs-12-->
+
+                <div class="col-sm-6">
+                  <div class="dashboard-item">
+                    <div class="dash-item-head">
+                      <h3 class="title">
+                        {{ text_account_info }}
+                        <a href="{{edit}}" class="edit-btn">{{  text_edit }}</a>
+                      </h3>
+                    </div><!--End dash-item-head-->
+                    <div class="dash-item-content">
+                      <ul class="account-info">
+                        <li>
+                          <span>{{  text_full_name }}</span>
+                          <span>{{ name }}</span>
+                        </li>
+                        <li>
+                          <span>{{ text_email }}</span>
+                          <span>{{ email }}</span>
+                        </li>
+                      </ul>
+                    </div><!--End Dash-item-content-->
+                  </div><!--End dashboard-item-->
+                </div><!--End Col-sm-6-->
+                <div class="col-sm-6">
+                  <div class="dashboard-item">
+                    {% if  addresses %}
+
+                      <div class="dash-item-head">
+
+                        <h3 class="title">
+                          {{  text_address  }}
+                          <a href="{{ addresses.update }}" class="edit-btn">{{ text_edit }}</a>
+                        </h3>
+                      </div>
+                      <div class="dash-item-content">
+                        <ul class="account-info">
+                          <li>
+                            <span>{{ entry_zone }} </span>
+                            <span> {{addresses.zone }}</span>
+                          </li>
+                          <li>
+                            <span>{{ entry_city }}</span>
+                            <span>{{ addresses.city}}</span>
+                          </li>
+                          <li>
+                            <span> {{ entry_address_1 }}</span>
+                            <span>{{ addresses.address_1 }}</span>
+                          </li>
+                        </ul>
+
+                      </div>
+
+                    {% else %}
+                      <div class="dash-item-head">
+
+                        <h3 class="title">
+                          {{ text_address }}
+                          <a href="{{ add_address }}" class="edit-btn">{{  add_new_address }}</a>
+                        </h3>
+                      </div>
+
+                    {% endif %}
+
+                  </div><!--End dashboard-item-->
+                </div><!--End Col-sm-6-->
+              </div><!--End Row-->
+            </div><!--End Dashboard-content-->
+          </div><!--End Col-md-9-->
+        </div><!--End Row-->
+      </div><!-- End container -->
+    </section><!-- End Section -->
+
+  </div><!--End Page-content-->
+
+
+
+</div><!--End main-->
+
+{{ footer }}

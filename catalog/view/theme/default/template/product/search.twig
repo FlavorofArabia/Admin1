@@ -1,0 +1,114 @@
+{{ header }}
+<div class="main" role="main">
+    <div class="container page-heading">
+        <ul class="breadcrumb">
+            {% for breadcrumb in breadcrumbs %}
+                <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+            {% endfor %}
+        </ul>
+    </div><!--End Container-->
+    <div class="page-content">
+        <div class="container">
+            <div class="categories-section">
+                <div class="item-box sort-wrapper">
+
+          <span class="sort-title">
+              {{ text_sort }}
+          </span>
+                    <div class="sort-select">
+                        <select class="select-ui" onchange="location = this.value;">
+                            {% for sorts in sorts %}
+                                {% if sorts.value == '%s-%s'|format(sort, order) %}
+                                    <option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+                                {% else %}
+                                    <option value="{{ sorts.href }}">{{ sorts.text }}</option>
+                                {% endif %}
+                            {% endfor %}
+                        </select>
+                    </div><!--End sort-select-->
+
+
+
+                </div><!--End item-box-->
+                <div class="item-box">{% if products %}
+                    <div class="row">
+                        {% for product in products %}
+
+                            <div class="col-md-3">
+                                <div class="product-item">
+                                    <a class="product-img" href="{{ product.href }}">
+                                        <img src="{{ product.thumb }}">
+                                    </a><!--End product-img-->
+                                    <div class="product-cont">
+                                        <div class="product-cont-det">
+                                            <h3 class="title">
+                                                {{ product.name }}
+                                            </h3>
+                                            <ul class="rating">
+                                                {% for i in 1..5 %}
+                                                    {% if product.rating > i %}
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    {% else %}
+
+                                                        <li><i class="far fa-star"></i></li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                            <div class="price">
+
+
+                                                {% if not product.special %}
+                                                    <span class="price-new">{{ product.price }}</span>
+
+                                                {% else %}
+                                                    <span class="price-new">{{ product.special }}</span>
+                                                    <br>
+                                                    <span class="price-old">{{ product.price }}</span>
+                                                {% endif %}
+
+                                            </div>
+                                        </div><!--End product-cont-det-->
+                                        <div class="product-cont-actions">
+                                            <a href="javascript:;" onclick="cart.add('{{ product.product_id }}');">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                            <a href="javascript:;" onclick="wishlist.add('{{ product.product_id }}');">
+                                                <i class="fa fa-heart"></i>
+                                            </a>
+                                            <a href="#" data-toggle="modal" data-src="{{ product.product_id }}" class="product_modal">
+                                                <i class="fa fa-search-plus"></i>
+                                            </a>
+                                        </div><!--End product-cont-actions-->
+                                    </div><!--End product-cont-->
+                                </div><!--widget-item -->
+                            </div><!--End col-->
+
+                        {% endfor %}
+
+
+                    </div><!--End row-->
+
+                    <div class="row">
+                        <div class="col-sm-6 text-left">{{ pagination }}</div>
+                        <div class="col-sm-6 text-right">{{ results }}</div>
+                    </div>
+
+                </div><!--End item-box-->
+            </div><!--End categories-section-->
+
+            {% endif %}
+            {% if not categories and not products %}
+                <p>{{ text_empty }}</p>
+                <div class="buttons">
+                    <div class="pull-right"><a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a></div>
+                </div>
+            {% endif %}
+
+        </div><!--End container-->
+    </div><!--End page-content-->
+
+
+
+</div><!--End main-->
+
+{{ footer }}

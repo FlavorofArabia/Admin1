@@ -1,0 +1,88 @@
+<div class="cart-wish-wrap">
+  <div class="cart-wish-item">
+    <a href="{{ wishlist }}" class="wish-cart-btn wish-btn">
+      <div class="wish-cart-icon">
+        <i class="fa fa-heart"></i>
+      </div>
+      <div class="wish-cart-count" id="wish-cart-count">
+        {{ text_wishlist_count }}
+      </div>
+    </a><!--End wish-btn-->
+  </div>
+  <div class="cart-wish-item dropdown">
+    <a href="{{ cart }}" class="wish-cart-btn cart-btn">
+      <div class="wish-cart-icon">
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+      <div class="wish-cart-count">
+        {{ text_cart_count }}
+      </div>
+      <div class="wish-cart-txt">
+        {{ text_cart }}
+      </div>
+    </a>
+    <div class="cart-widget dropdown-menu">
+      <div class="cart-widget-info">
+        <div class="top">
+          <ul>
+            {% for total in totals %}
+              <li>
+                <span>{{ total.title }}</span>
+                <span>{{ total.text }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="bottom">
+          <ul>
+
+            <li>
+              <a class="btn cart-tot-btn" href="{{ cart }}" >{{ text_cart }}</a>
+            </li>
+            <li>
+              <a class=" btn cart-tot-btn" href="{{ checkout }}" >{{ text_checkout }}</a>
+            </li>
+
+          </ul>
+        </div>
+      </div><!--End Cart-widget-info-->
+      <div class="cart-widget-items">
+        <div class="cart-slider">
+          {% for product in products %}
+            <div class="item">
+              <div class="item-img">
+                <img src="{{ product.thumb }}">
+                <div class="item-img-hover">
+                  <i onclick="cart.remove('{{ product.cart_id }}');" class="fas fa-times"></i>
+                </div>
+              </div><!--End Item-img-->
+              <div class="item-cont">
+                <h5 class="item-cont-name">
+                  {{ product.name }}
+                  {% for option in product.option %}
+                    <br />&nbsp;<small> - {{ option.name }}: {{ option.value }}</small>
+                  {% endfor %}
+                 </h5>
+                <span class="item-cont-price">{{ product.price }}</span>
+                <div class="cat-number">
+                  <a href="#" class="number-up">
+                    <i class="fa fa-angle-up"></i>
+                  </a>
+                  <input value="{{ product.quantity }}" data-action="{{ product.action }}" data-cartId="{{ product.cart_id }}" class="form-control" data-productId="{{ product.product_id }}" type="text">
+                  <a href="#" class="number-down">
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+
+
+                </div>
+
+              </div><!--End Item-cont-->
+            </div><!--END iTEM-->
+
+          {% endfor %}
+
+        </div><!--End Cart-slider-->
+      </div><!--End Cart-widget-items-->
+    </div><!--End Cart-widget-->
+  </div><!--End dropdown-->
+</div><!--End cart-wish-wrap-->

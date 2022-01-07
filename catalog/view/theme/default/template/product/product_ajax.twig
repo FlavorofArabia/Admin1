@@ -1,0 +1,53 @@
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div><!--End modal-header-->
+        <div class="modal-body">
+            <div class="pro-modal-wrap">
+                <div class="pro-modal-img">
+                    <img src="{{ product.thumb }}">
+                </div><!--End pro-modal-img-->
+                <div class="pro-modal-cont">
+                    <a class="title" href="{{ product.href }}">
+                        {{ product.name }}
+                    </a>
+                    <div class="price-box">
+                        {% if not product.special %}
+                            <span class="price-new">{{ product.price }}</span>
+
+                        {% else %}
+                            <span class="price-new">{{ product.special }}</span>
+                            <br>
+                            <span class="price-old">{{ product.price }}</span>
+                        {% endif %}
+                    </div><!--End price-box-->
+                    <p>
+                        {{ product.description }}
+                    </p>
+                    <div class="product-item-cart">
+                        <div class="cat-number">
+                            <a href="#" class="number-down">
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <input value="{{ product.quantity }}" data-action="{{ product.action }}" data-cartId="{{ product.cart_id }}" class="form-control" data-productId="{{ product.product_id }}" type="text">
+                            <a href="#" class="number-up">
+                                <i class="fa fa-angle-up"></i>
+                            </a>
+                        </div>
+
+
+                        <button class="text-icon-btn custom-btn" onclick="cart.add('{{ product.product_id }}');">
+                            <i class="fa fa-shopping-cart"></i>
+                            إضافة للعربة
+                        </button>
+                        <button class="icon-btn custom-btn" onclick="wishlist.add('{{ product.product_id }}');">
+                            <i class="fa fa-heart"></i>
+                        </button>
+                    </div><!--End product-item-cart-->
+
+                </div><!--End pro-modal-cont-->
+            </div><!--End pro-modal-wrap-->
+        </div><!--End modal-body-->
+    </div><!--End modal-content -->
+</div><!--End modal-dialog -->

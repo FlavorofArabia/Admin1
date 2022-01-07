@@ -1,0 +1,67 @@
+{% if reviews %}
+  {% for review in reviews %}
+    <li class="one-review">
+      <ul class="review-rates">
+        <li><span>{{ entry_price_rating }}</span>
+          <ul class="rating">
+            {% for i in 1..5 %}
+              {% if review.price > i %}
+                <li><i class="fa fa-star"></i></li>
+              {% else %}
+                <li><i class="far fa-star"></i></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li><!--price-->
+        <li><span>{{ entry_quality_rating }}</span>
+          <ul class="rating">
+            {% for i in 1..5 %}
+              {% if review.quality > i %}
+                <li><i class="fa fa-star"></i></li>
+              {% else %}
+                <li><i class="far fa-star"></i></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li><!--Quality-->
+        <li><span>{{ entry_value_rating }}</span>
+          <ul class="rating">
+            {% for i in 1..5 %}
+              {% if review.value > i %}
+                <li><i class="fa fa-star"></i></li>
+              {% else %}
+                <li><i class="far fa-star"></i></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li><!--Value-->
+      </ul><!--review-rates-->
+
+      <div class="review-body">
+        <div class="review-meta">
+          <h4>{{ review.author }}</h4> : {{ review.date_added }}
+        </div>
+        <p>
+          {{ review.text }}
+        </p>
+      </div><!--review-body-->
+    </li>
+
+{#      <table class="table table-striped table-bordered">#}
+{#      <tr>#}
+{#        <td style="width: 50%;"><strong>{{ review.author }}</strong></td>#}
+{#        <td class="text-right">{{ review.date_added }}</td>#}
+{#      </tr>#}
+{#      <tr>#}
+{#        <td colspan="2"><p>{{ review.text }}</p>#}
+{#          {% for i in 1..5 %}#}
+{#          {% if review.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> {% endif %}#}
+{#          {% endfor %}#}
+{#        </td>#}
+{#      </tr>#}
+{#    </table>#}
+  {% endfor %}
+  <div class="text-right">{{ pagination }}</div>
+{% else %}
+  <p>{{ text_no_reviews }}</p>
+{% endif %} 

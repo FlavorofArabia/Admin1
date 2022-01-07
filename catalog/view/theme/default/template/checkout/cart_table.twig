@@ -1,0 +1,97 @@
+<div class="col-md-9">
+  <div class="item-box" >
+    <table class="table-cart">
+      <thead>
+      <tr>
+        <th class="product-thumbnail">{{ column_image }}</th>
+        <th class="product-name">{{ column_name }}</th>
+        <th class="product-price">{{ column_price }}</th>
+        <th class="product-quantity">{{ column_quantity }}</th>
+        <th class="product-subtotal">{{ column_total }}</th>
+        <th class="product-remove">{{ column_remove }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% if products %}
+        {% for product in products %}
+          <tr>
+            <td class="product-thumbnail">{% if product.thumb %}<a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-thumbnail" /></a> {% endif %}</td>
+            <td class="product-name">
+              <a href="{{ product.href }}">
+                                {{ product.name }}
+                  {% for option in product.option %}
+                    <br />&nbsp;<small> - {{ option.name }}: {{ option.value }}</small>
+                  {% endfor %}
+              </a>
+              {% if not product.stock %} <span class="text-danger">***</span> {% endif %}
+            </td>
+            <td class="product-price">
+              {{ product.price }}
+            </td>
+            <td class="product-quantity">
+              <div class="cat-number">
+                <a href="#" class="number-down">
+                  <i class="fa fa-angle-down"></i>
+                </a>
+                <input value="{{ product.quantity }}" data-action="edit" data-cartId="{{ product.cart_id }}" class="form-control" data-productId="{{ product.product_id }}" type="text">
+                <a href="#" class="number-up">
+                  <i class="fa fa-angle-up"></i>
+                </a>
+              </div>
+            </td>
+            <td class="product-subtotal">
+              {{ product.total }}
+            </td>
+
+            <td class="product-remove">
+              <button class="icon-btn" onclick="removeFromCart('{{ product.cart_id }}')">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        {% endfor %}
+
+      {% else %}
+
+        {{ text_empty }}
+
+      {% endif %}
+
+      </tbody>
+    </table>
+
+  </div><!--End Cart-content-->
+</div><!--End Col-md-9-->
+<div class="col-md-3">
+  <div class="item-box coupon-wrap">
+
+    <form class="">
+      <div class="form-group">
+        <input type="text" class="form-control" name="coupon" value="{{ coupon }}" placeholder="{{ entry_coupon }}">
+      </div><!--End form-group-->
+      <input class="custom-btn" type="button" value="{{ button_coupon }}" id="button-coupon" data-loading-text="{{ text_loading }}" >
+    </form>
+  </div><!--End cart-total-->
+
+
+
+  <div class="item-box cart-total">
+    <h3>
+      {{  text_cart_total }}
+    </h3>
+    <ul>
+
+      {% for total in totals %}
+        <li>
+          {{ total.title }} :
+          <span>{{ total.text }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ checkout }}" class="custom-btn">
+      {{ button_checkout }}
+    </a>
+  </div><!--End cart-total-->
+
+</div><!--End Col-md-8-->
+

@@ -1,0 +1,18 @@
+<form action="{{action}}" method="post">
+  <input type="hidden" name="MEID" value="{{MerchantID}}" />
+  <input type="hidden" name="UName" value="{{Username}}" />
+  <input type="hidden" name="PWD" value="{{Password}}" />
+  <input type="hidden" name="ItemName1" value="{{itemname1}}" />
+  <input type="hidden" name="ItemQty1" value="1" />
+  <input type="hidden" name="ItemPrice1" value="{{itemprice1}}" />
+  <input type="hidden" name="CurrencyCode" value={{currencycode}} />
+  <input type="hidden" name="OrdID" value="{{ordid}}" />
+  <input type="hidden" name="CstEmail" value="{{cstemail}}" />
+  <input type="hidden" name="CstFName" value="{{cstname}}" />
+  <input type="hidden" name="CstMobile" value="{{cstmobile}}" />
+  <input type="hidden" name="Cntry" value="KW" />
+  <input type="hidden" name="ReturnURL" value="{{returnurl}}" />
+  <div class="buttons">
+    <div class="right"><input type="submit" value="{{button_confirm}}" class="button" /></div>
+  </div>
+</form>

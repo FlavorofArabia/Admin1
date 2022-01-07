@@ -1,0 +1,387 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="site-map">
+
+          {% for item in footer_menu %}
+            <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul><!--End site-map-->
+      </div><!--End col-md-8-->
+      <div class="col-md-4">
+        <ul class="social-list">
+          {% if facebook %}
+          <li>
+            <a href="{{ facebook }}" target="_blank">
+              <img src="https://bacunuts.com/image/catalog/face.png">
+            </a>
+          </li>
+          {% endif %}
+          {% if twitter %}
+          <li>
+            <a href="{{ twitter }}" target="_blank">
+              <img src="https://bacunuts.com/image/catalog/twitter.png">
+                                            
+            </a>
+          </li>
+          {% endif %}
+          {% if instagram %}
+          <li>
+            <a href="{{ instagram }}" target="_blank">
+              <img src="https://bacunuts.com/image/catalog/instagram.png">
+                                            
+            </a>
+          </li>
+          {% endif %}
+          {% if whatsapp %}
+          <li>
+            <a href="{{ whatsapp }}" target="_blank">
+              <img src="https://bacunuts.com/image/catalog/whats.png">
+                                            
+            </a>
+          </li>
+          {% endif %}
+        </ul><!--End social-list-->
+      </div><!--End col-md-4-->
+    </div><!--End row-->
+    <div class="row">
+      <div class="copyrights">
+        <div class="col-md-8">
+          <div class="copyright-wrap">
+            تم التطوير والبرمجه
+            <i class="fa fa-heart"></i>
+            بواسطة Upureka
+          </div><!--End site-map-->
+        </div><!--End col-md-8-->
+        <div class="col-md-4">
+          <div class="copyright-wrap text-right">
+            © قولدرن اروما
+          </div><!--End site-map-->
+        </div><!--End col-md-4-->
+      </div><!--copyrights-->
+    </div><!--End row-->
+  </div><!--End container-->
+</footer><!--End Footer--->
+</div><!--End main-->
+</div><!--End wrapper-->
+
+<div id="login-dialog" class="mfp-with-anim mfp-hide mfp-dialog">
+  <div class="login-register-head">
+    <h3> {{ text_returning_customer }}</h3>
+    <a class="popup-text" href="#register-dialog" data-effect="mfp-zoom-out">
+      {{ text_new_customer }}
+    </a>
+  </div><!--End login-register-head-->
+  <form class="dialog-form">
+    <div class="form-group">
+      <div class="alert-danger" id="error_login">
+
+      </div>
+    </div><!--End col-md-6-->
+    <div class="form-group">
+      <input class="form-control" value="{{ email }}"  placeholder="{{ entry_email }}" id="login-email" type="email">
+    </div><!--End col-md-6-->
+    <div class="form-group">
+      <input class="form-control" placeholder="{{ entry_password }}" id="login-password" type="password">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <input id="remember" type="checkbox">
+      <label for="remember">
+        {{ text_remember }}
+      </label>
+    </div><!--End form-group-->
+    <button type="button" id="login_submit" class="custom-btn">{{ button_login }}</button>
+    <a class="popup-text dialog-txt" href="#password-recover-dialog" data-effect="mfp-zoom-out">
+      {{ text_forgotten }}
+    </a>
+  </form><!--End dialog-form-->
+</div><!--End login-dialog-->
+
+<div id="register-dialog" class="mfp-with-anim mfp-hide mfp-dialog">
+  <div class="login-register-head">
+    <h3> {{ text_new_customer }}</h3>
+  </div><!--End login-register-head-->
+  <form class="dialog-form">
+    <div class="form-group">
+      <div class="alert-danger" id="error_register">
+
+      </div>
+    </div><!--End col-md-6-->
+    <div class="form-group">
+      <input class="form-control" name="name" value="{{ firstname }}" placeholder="{{ entry_firstname }}" id="register-firstname" type="text">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <input class="form-control" name="email" value="{{ email }}" placeholder="{{ entry_email }}" id="register-email" type="email">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <input class="form-control" name="telephone" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="register-telephone"  type="text">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <input class="form-control" name="password" value="{{ password }}" placeholder="{{ entry_password }}" id="register-password" type="password">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <input class="form-control" name="confirm" value="{{ confirm }}" placeholder="{{ entry_confirm }}" id="register-confirm" type="password">
+    </div><!--End form-group-->
+    <button type="button" id="register_submit" class="custom-btn">{{ button_continue }}</button>
+  </form>
+  <p class="dont-have alrady-member">
+    <a class="popup-text dialog-txt" href="#login-dialog" data-effect="mfp-zoom-out">{{ text_account_already }}</a>
+  </p>
+</div><!--End register-dialog-->
+<div id="confirm-dialog" class="mfp-with-anim mfp-hide mfp-dialog">
+  <form class="dialog-form">
+    <div class="form-group">
+      <label for="reset-pass">ادخل كود التفعيل الذي تم ارسالة الي الجوال</label>
+      <input id="reset-pass" placeholder="أادخل كود التفعيل" type="text" class="form-control">
+    </div><!--End form-group-->
+    <div class="form-group">
+      <button type="submit" class="custom-btn">
+        تأكيد
+      </button>
+    </div><!--End form-group-->
+    <a class="dialog-txt" href="">
+      اعادة ارسال الكود
+    </a>
+  </form>
+</div><!-- END dialog-box -->
+<div id="password-recover-dialog" class="mfp-with-anim mfp-hide mfp-dialog">
+  <form class="dialog-form">
+    <div class="form-group">
+      <div class="alert-danger" id="error_forget">
+
+      </div>
+    </div><!--End col-md-6-->
+    <div class="form-group">
+      <label for="reset-pass">  {{ text_forget_password }}  </label>
+      <input id="reset-pass" placeholder="{{ entry_email }}" type="email" class="form-control">
+    </div><!--End form-group-->
+    <button type="button" id="forget_submit" class="custom-btn">
+      {{ text_reset }}
+    </button>
+  </form>
+</div><!-- END dialog-box -->
+<div id="gx-sidemenu" class="gx-sidemenu">
+  <div class="gx-sidemenu-inner" id="gx-sidemenu-inner-1">
+    <div class="scroll">
+      <ul class="gx-menu">
+
+
+        {% if logged %}
+        
+          <li class="profile">
+	
+			
+			    <li>
+			        <a href="{{ account }}">
+			            <i class="far fa-user"></i>
+			            {{ text_account }}
+			            </a>
+			    </li>
+		   </li>
+          
+        {% else %}
+       
+          
+          <li class="profile">
+	
+			
+			    <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top">{{ text_login }}</a></li>
+		   </li>
+        {% endif %}
+
+        
+
+        {% for category in categories %}
+          {% if category.children %}
+            <li>
+              <a href="{{ category.href }}">{{ category.name }}</a>
+
+              <ul>
+                {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
+                  {% for child in children %}
+                    <li><a href="{{ child.href }}">{{ child.name }}</a></li>
+                  {% endfor %}
+                {% endfor %}
+              </ul><!--End menu-item-cont-->
+            </li>
+
+          {% else %}
+            <li><a href="{{ category.href }}">{{ category.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        {% for information in informations %}
+          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+        {% endfor %}
+
+        <div class="side-social">
+          <div class="social-list">
+            {% if facebook %}
+              <a href="{{ facebook }}" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            {% endif %}
+            {% if twitter %}
+              <a href="{{ twitter }}" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            {% endif %}
+            {% if instagram %}
+              <a href="{{ instagram }}" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            {% endif %}
+            {% if whatsapp %}
+              <a href="{{ whatsapp }}" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            {% endif %}
+
+          </div><!--End social-list-->
+        </div><!--End perfumes-apps-social-->
+
+
+      </ul><!--End gx-menu-->
+    </div><!--End scroll-->
+  </div><!--End gx-sidemenu-inner-->
+</div><!--End gx-sidemenu-->
+<div id="product-modal" class="modal fade">
+
+</div><!-- END product-modal -->
+
+<!--Scripts Plugins-->
+<script src="catalog/view/theme/default/vendor/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/countdown.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/gx-side-menu/js/gx.sidemenu.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/magnific-popup/js/magnific-popup.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/elevatezoom-master/jquery.elevatezoom.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script src="catalog/view/theme/default/vendor/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+<!--Site JS-->
+<script src="catalog/view/javascript/common.js"></script>
+<script src="catalog/view/javascript/notify.min.js"></script>
+<script src="catalog/view/theme/default/vendor/js/main.js"></script>
+<script src="catalog/view/javascript/infscrl.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#send_newsletters").on('click', function () {
+      $.ajax({
+        url: '{{ newsletter_form }}',
+        type: 'post',
+        dataType: 'json',
+        data: {'email': $('#email').val()},
+        success: function (response) {
+          if (Array.isArray(response.error)) {
+            let errorStr = "";
+            response.error.forEach(function (e) {
+              errorStr += e;
+            });
+            $.notify(errorStr, "error");
+          }
+          if (response.success) {
+            $.notify(response.success, "success");
+          }
+
+          $('#email').val('')
+        }
+      });
+
+    });
+
+    $('body').on('click','.product_modal',function () {
+      $.ajax({
+        url: `{{ product }}&product_id=${$(this).attr('data-src')}`,
+        type: 'get',
+        success: function (response) {
+          $("#product-modal").html(response);
+          $("#product-modal").modal('toggle');
+        }
+      });
+    })
+
+
+    $("#login_submit").on('click', function () {
+      $("#error_login").html('');
+      $.ajax({
+        url: '{{ login }}',
+        type: 'post',
+        dataType: 'json',
+        data: {
+          'email': $('#login-email').val()? $('#login-email').val() : '',
+          'password': $('#login-password').val()? $('#login-password').val() : ''
+        },
+        success: function (response) {
+          if (response.error){
+            for(item of response.error){
+              $("#error_login").append(`<li>${item}</li>`)
+            }
+          } else if (response.success){
+              location.reload();
+          } else{
+
+          }
+        }
+      });
+
+    });
+
+    $("body").on('click','#register_submit', function () {
+      $("#error_register").html('');
+      $.ajax({
+        url: '{{ register }}',
+        type: 'post',
+        dataType: 'json',
+        data: {
+          'firstname': $('#register-firstname').val(),
+          'email': $('#register-email').val(),
+          'password': $('#register-password').val(),
+          'telephone': $('#register-telephone').val(),
+          'confirm': $('#register-confirm').val(),
+        },
+        success: function (response) {
+          if (response.error){
+            for(item of response.error){
+              $("#error_register").append(`<li>${item}</li>`)
+            }
+          } else if (response.success){
+            location.reload();
+          } else{
+
+          }
+        }
+      });
+
+    });
+
+    $("body").on('click','#forget_submit', function () {
+      $("#error_forget").html('');
+      $.ajax({
+        url: '{{ forgotten }}',
+        type: 'post',
+        dataType: 'json',
+        data: {
+          'email': $('#reset-pass').val(),
+        },
+        success: function (response) {
+          if (response.error){
+            for(item of response.error){
+              $("#error_forget").append(`<li>${item}</li>`)
+            }
+          } else if (response.success){
+            $.notify( response.message , "success");
+
+          } else{
+
+          }
+        }
+      });
+
+    });
+
+  });
+</script>
+</body>
+</html>

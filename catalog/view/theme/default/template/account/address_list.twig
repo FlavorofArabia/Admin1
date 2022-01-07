@@ -1,0 +1,70 @@
+{{ header }}
+<div class="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <section class="section-md">
+      <div class="container">
+        <div class="row">
+          {% if success %}
+            <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}</div>
+          {% endif %}
+          {% if error_warning %}
+            <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+          {% endif %}
+
+          {{ column_right }}
+          <div class="col-md-9">
+            <div class="dashboard-content adress-dashboard">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="dashboard-item head-item">
+                    <p>
+                      {{text_address_book}}
+                    </p>
+                    <a href="{{ add }}" class="add-adress">{{ button_new_address }}</a>
+                  </div><!--End dashboard-item-->
+                </div><!--End Col-xs-12-->
+                {% if addresses %}
+
+
+                  {% for result in addresses %}
+                    <div class="col-sm-6">
+                      <div class="dashboard-item">
+                        <div class="dash-item-head">
+                          <h3 class="title">
+                            {{ result.name }}
+                            <a href="{{ result.update }}" class="edit-btn">{{button_edit}}</a>
+                            <a href="{{ result.delete }}" class="edit-btn">{{button_delete}}</a>
+                          </h3>
+                        </div><!--End dash-item-head-->
+                        <div class="dash-item-content">
+                          <ul class="account-info">
+                            <li>
+                              <span>{{ result.address }}</span>
+                            </li>
+                          </ul>
+                        </div><!--End Dash-item-content-->
+                      </div><!--End dashboard-item-->
+                    </div><!--End Col-sm-6-->
+
+                  {% endfor %}
+
+                {% else %}
+                  <p>{{ text_empty }}</p>
+                {% endif %}
+
+              </div><!--End Row-->
+            </div><!--End Dashboard-content-->
+
+          </div><!--End Col-md-9-->
+        </div><!--End Row-->
+      </div><!-- End container -->
+    </section><!-- End Section -->
+  </div><!--End Page-content-->
+  {{ footer }}

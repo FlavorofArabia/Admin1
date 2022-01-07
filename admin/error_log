@@ -1,0 +1,51 @@
+[19-Mar-2021 18:33:25 UTC] PHP Warning:  fopen(/home/bacunuts/public_htm/system/storage/logs/error.log): failed to open stream: No such file or directory in /home/bacunuts/public_html/system/library/log.php on line 22
+[19-Mar-2021 18:33:25 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:25 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:25 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:25 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Scssc' not found in /home/bacunuts/public_html/admin/controller/startup/sass.php:9
+Stack trace:
+#0 /home/bacunuts/public_html/system/engine/action.php(79): ControllerStartupSass->index()
+#1 /home/bacunuts/public_html/system/engine/router.php(67): Action->execute(Object(Registry))
+#2 /home/bacunuts/public_html/system/engine/router.php(46): Router->execute(Object(Action))
+#3 /home/bacunuts/public_html/system/framework.php(165): Router->dispatch(Object(Action), Object(Action))
+#4 /home/bacunuts/public_html/system/startup.php(103): require_once('/home/bacunuts/...')
+#5 /home/bacunuts/public_html/admin/index.php(19): start('admin')
+#6 {main}
+  thrown in /home/bacunuts/public_html/admin/controller/startup/sass.php on line 9
+[19-Mar-2021 18:33:28 UTC] PHP Warning:  fopen(/home/bacunuts/public_htm/system/storage/logs/error.log): failed to open stream: No such file or directory in /home/bacunuts/public_html/system/library/log.php on line 22
+[19-Mar-2021 18:33:28 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:28 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:28 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:28 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Scssc' not found in /home/bacunuts/public_html/admin/controller/startup/sass.php:9
+Stack trace:
+#0 /home/bacunuts/public_html/system/engine/action.php(79): ControllerStartupSass->index()
+#1 /home/bacunuts/public_html/system/engine/router.php(67): Action->execute(Object(Registry))
+#2 /home/bacunuts/public_html/system/engine/router.php(46): Router->execute(Object(Action))
+#3 /home/bacunuts/public_html/system/framework.php(165): Router->dispatch(Object(Action), Object(Action))
+#4 /home/bacunuts/public_html/system/startup.php(103): require_once('/home/bacunuts/...')
+#5 /home/bacunuts/public_html/admin/index.php(19): start('admin')
+#6 {main}
+  thrown in /home/bacunuts/public_html/admin/controller/startup/sass.php on line 9
+[19-Mar-2021 18:33:33 UTC] PHP Warning:  fopen(/home/bacunuts/public_htm/system/storage/logs/error.log): failed to open stream: No such file or directory in /home/bacunuts/public_html/system/library/log.php on line 22
+[19-Mar-2021 18:33:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/bacunuts/public_html/system/library/log.php on line 31
+[19-Mar-2021 18:33:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Scssc' not found in /home/bacunuts/public_html/admin/controller/startup/sass.php:9
+Stack trace:
+#0 /home/bacunuts/public_html/system/engine/action.php(79): ControllerStartupSass->index()
+#1 /home/bacunuts/public_html/system/engine/router.php(67): Action->execute(Object(Registry))
+#2 /home/bacunuts/public_html/system/engine/router.php(46): Router->execute(Object(Action))
+#3 /home/bacunuts/public_html/system/framework.php(165): Router->dispatch(Object(Action), Object(Action))
+#4 /home/bacunuts/public_html/system/startup.php(103): require_once('/home/bacunuts/...')
+#5 /home/bacunuts/public_html/admin/index.php(19): start('admin')
+#6 {main}
+  thrown in /home/bacunuts/public_html/admin/controller/startup/sass.php on line 9
+[16-Apr-2021 02:28:30 UTC] PHP Warning:  require_once(/home/bacunuts/public_html/system/startup.php): failed to open stream: No such file or directory in /home/chargesa/public_html/new_version/admin/index.php on line 17
+[16-Apr-2021 02:28:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/bacunuts/public_html/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chargesa/public_html/new_version/admin/index.php on line 17
+[16-Apr-2021 02:30:46 UTC] PHP Warning:  require_once(/home/bacunuts/public_html/new_version/system/startup.php): failed to open stream: No such file or directory in /home/chargesa/public_html/new_version/admin/index.php on line 17
+[16-Apr-2021 02:30:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/bacunuts/public_html/new_version/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chargesa/public_html/new_version/admin/index.php on line 17
+[16-Apr-2021 02:30:48 UTC] PHP Warning:  require_once(/home/bacunuts/public_html/new_version/system/startup.php): failed to open stream: No such file or directory in /home/chargesa/public_html/new_version/admin/index.php on line 17
+[16-Apr-2021 02:30:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/bacunuts/public_html/new_version/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/chargesa/public_html/new_version/admin/index.php on line 17

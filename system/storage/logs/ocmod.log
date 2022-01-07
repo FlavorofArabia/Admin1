@@ -1,0 +1,3582 @@
+2020-04-18 14:56:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-18 14:57:39 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-18 15:00:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-18 15:01:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-18 21:13:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 5:03:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 5:06:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 7:16:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 11:15:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 13:38:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-19 14:22:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2020-04-26 12:27:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-04-29 22:20:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+MOD: Infinite Product Scroll
+
+FILE: catalog/controller/product/category.php
+CODE: $pagination->url =
+LINE: 328
+
+FILE: catalog/controller/product/compare.php
+CODE: $pagination->url =
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $pagination->url =
+LINE: 314
+
+FILE: catalog/controller/product/product.php
+CODE: $pagination->url =
+LINE: 570
+
+FILE: catalog/controller/product/search.php
+CODE: $pagination->url =
+LINE: 371
+
+FILE: catalog/controller/product/special.php
+CODE: $pagination->url =
+LINE: 234
+
+FILE: catalog/controller/common/footer.php
+CODE: function index
+LINE: 6
+----------------------------------------------------------------
+2020-05-01 3:54:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+MOD: Infinite Product Scroll
+
+FILE: catalog/controller/product/category.php
+CODE: $pagination->url =
+LINE: 328
+CODE: function index
+LINE: 5
+
+FILE: catalog/controller/product/compare.php
+CODE: $pagination->url =
+NOT FOUND - OPERATION SKIPPED!
+CODE: function index
+LINE: 5
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $pagination->url =
+LINE: 314
+CODE: function index
+LINE: 5
+
+FILE: catalog/controller/product/product.php
+CODE: $pagination->url =
+LINE: 570
+CODE: function index
+LINE: 8
+
+FILE: catalog/controller/product/search.php
+CODE: $pagination->url =
+LINE: 371
+CODE: function index
+LINE: 5
+
+FILE: catalog/controller/product/special.php
+CODE: $pagination->url =
+LINE: 234
+CODE: function index
+LINE: 5
+----------------------------------------------------------------
+2020-05-01 15:33:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-03 16:42:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-03 16:50:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-03 16:53:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-03 16:55:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-03 16:57:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+2020-06-29 10:39:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Filter Products By Category
+
+FILE: admin/controller/catalog/product.php
+CODE: if (isset($this->request->get['filter_model'])) {
+LINE: 240
+CODE: $url = '';
+LINE: 31
+LINE: 88
+LINE: 147
+LINE: 206
+LINE: 307
+LINE: 432
+LINE: 476
+LINE: 570
+CODE: $data['filter_model'] = $filter_model;
+LINE: 520
+CODE: 'filter_model'	  => $filter_model,
+LINE: 358
+CODE: $data['sort'] = $sort;
+LINE: 539
+
+FILE: admin/model/catalog/product.php
+CODE: $sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 358
+CODE: $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+LINE: 642
+
+FILE: admin/view/template/catalog/product_list.twig
+CODE: <label class="control-label" for="input-name">{{ entry_name }}</label>
+LINE: 49
+CODE: var filter_model = $('input[name=\'filter_model\']').val();
+LINE: 227
+----------------------------------------------------------------
+MOD: تحرير المنتجات المطور
+
+FILE: admin/language/en-gb/en-gb.php
+CODE: // Button
+LINE: 33
+
+FILE: admin/language/ar/ar.php
+CODE: // Button
+LINE: 37
+CODE: protected function getList() {
+LINE: 324
+CODE: $data['delete'] = $this->url->link('catalog/product/delete', 'user_token=' . $this->session->data['user_token'] . $url, true);
+LINE: 432
+CODE: protected function validateCopy() {
+LINE: 1384
+CODE: $special = $this->currency->format($product_special['price'], $this->config->get('config_currency'));
+LINE: 468
+CODE: 'price'      => $this->currency->format($result['price'], $this->config->get('config_currency')),
+LINE: 479
+CODE: public function editProduct($product_id, $data) {
+LINE: 149
+CODE: <button type="submit" form="form-product" formaction="{{ copy }}" data-toggle="tooltip" title="{{ button_copy }}" class="btn btn-default"><i class="fa fa-copy"></i></button>
+LINE: 10
+CODE: <input type="checkbox" name="selected[]" value="{{ product.product_id }}" checked="checked" />
+LINE: 177
+CODE: <input type="checkbox" name="selected[]" value="{{ product.product_id }}" />
+LINE: 181
+CODE: {{ product.price }}
+LINE: 188
+LINE: 191
+CODE: {{ product.special }}
+LINE: 191
+CODE: {{ product.quantity }}
+LINE: 199
+CODE: {{ product.model }}
+LINE: 187
+CODE: <td class="text-left">{{ product.name }}</td>
+LINE: 186
+CODE: <td class="text-left">{{ product.status }}</td>
+LINE: 210
+CODE: <div class="panel-body">
+LINE: 58
+LINE: 197
+CODE: <div class="panel-body">
+LINE: 52
+LINE: 206
+----------------------------------------------------------------
+2020-08-27 21:31:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-12 17:53:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-12 18:00:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-12 22:18:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-12 22:33:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-19 18:37:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-19 18:38:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-20 2:01:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-20 12:51:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-20 13:04:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-03-20 15:18:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+2021-05-03 5:46:59 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 5:55:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 6:17:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 6:20:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 6:22:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 8:13:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 8:14:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-03 8:15:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-23 22:45:55 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Live Price / Живая цена
+
+FILE: system/engine/router.php
+CODE: while ($action instanceof Action) {
+LINE: 63
+
+FILE: admin/controller/catalog/product.php
+CODE: $this->load->language('catalog/product');
+LINE: 12
+LINE: 29
+LINE: 88
+LINE: 147
+LINE: 208
+CODE: function getForm()
+LINE: 533
+CODE: 'price'             => $product_discount['price'],
+LINE: 1059
+CODE: 'price'             => $product_special['price'],
+LINE: 1084
+
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_discount
+LINE: 74
+LINE: 229
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_special
+LINE: 92
+LINE: 261
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: {% if product_option_value.price_prefix == '-' %}
+LINE: 675
+CODE: $('#option-value' + option_row + ' tbody').append(html);
+LINE: 1527
+
+FILE: admin/controller/catalog/option.php
+CODE: $this->load->language('catalog/option');
+LINE: 10
+LINE: 25
+LINE: 62
+LINE: 99
+LINE: 450
+CODE: protected function getForm() {
+LINE: 273
+CODE: if (isset($this->request->post['option_value'])) {
+LINE: 373
+LINE: 438
+
+FILE: admin/model/catalog/option.php
+CODE: $option_id = $this->db->getLastId();
+LINE: 10
+CODE: public function editOption(
+LINE: 36
+
+FILE: admin/view/template/catalog/option_form.twig
+CODE: <input type="text" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control" />
+LINE: 194
+
+FILE: system/library/cart/cart.php
+CODE: public function __construct($registry) {
+LINE: 12
+CODE: $product_data[] = array(
+LINE: 532
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price'], $product_info['tax_class_id'], $this->config->get('config
+LINE: 327
+CODE: foreach ($discounts as $discount) {
+LINE: 313
+
+FILE: catalog/view/theme/default/template/product/product.twig
+REGEX: ~({{ *footer *}})~
+LINE: 584
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 23
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 23
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Parent-child Options / Родительские опции
+CODE: function getForm() {
+LINE: 535
+CODE: $data['product_options'][] = array(
+LINE: 1029
+CODE: $option_data[] = array(
+LINE: 1371
+CODE: function getProductOptions($product_id
+LINE: 555
+CODE: $product_option_data[] = array(
+LINE: 585
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 55
+LINE: 236
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 67
+LINE: 85
+LINE: 266
+LINE: 284
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 82
+LINE: 115
+LINE: 311
+LINE: 344
+REGEX: ~(\$this->db->query\("INSERT INTO " \. DB_PREFIX \. "product_option_value[ \t\n]\X*?"\);)~
+LINE: 88
+LINE: 317
+CODE: $this->cache->delete('product');
+LINE: 251
+LINE: 532
+LINE: 603
+CODE: {{ footer }}
+LINE: 1679
+CODE: $('#tab-option .tab-content').append(html);
+LINE: 1458
+CODE: <input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" />
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function index() {
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 16
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 380
+CODE: public function getProduct($product_id) {
+LINE: 616
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 808
+CODE: return $product_option_data;
+LINE: 398
+REGEX: ~({{[ ]*footer[ ]*}})~
+LINE: 591
+
+FILE: admin/controller/sale/order.php
+CODE: public function getForm(
+LINE: 413
+
+FILE: admin/view/template/sale/order_form.twig
+CODE: $('#option').html(
+LINE: 1375
+LINE: 1406
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-23 22:47:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Live Price / Живая цена
+
+FILE: system/engine/router.php
+CODE: while ($action instanceof Action) {
+LINE: 63
+
+FILE: admin/controller/catalog/product.php
+CODE: $this->load->language('catalog/product');
+LINE: 12
+LINE: 29
+LINE: 88
+LINE: 147
+LINE: 208
+CODE: function getForm()
+LINE: 533
+CODE: 'price'             => $product_discount['price'],
+LINE: 1059
+CODE: 'price'             => $product_special['price'],
+LINE: 1084
+
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_discount
+LINE: 74
+LINE: 229
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_special
+LINE: 92
+LINE: 261
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: {% if product_option_value.price_prefix == '-' %}
+LINE: 675
+CODE: $('#option-value' + option_row + ' tbody').append(html);
+LINE: 1527
+
+FILE: admin/controller/catalog/option.php
+CODE: $this->load->language('catalog/option');
+LINE: 10
+LINE: 25
+LINE: 62
+LINE: 99
+LINE: 450
+CODE: protected function getForm() {
+LINE: 273
+CODE: if (isset($this->request->post['option_value'])) {
+LINE: 373
+LINE: 438
+
+FILE: admin/model/catalog/option.php
+CODE: $option_id = $this->db->getLastId();
+LINE: 10
+CODE: public function editOption(
+LINE: 36
+
+FILE: admin/view/template/catalog/option_form.twig
+CODE: <input type="text" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control" />
+LINE: 194
+
+FILE: system/library/cart/cart.php
+CODE: public function __construct($registry) {
+LINE: 12
+CODE: $product_data[] = array(
+LINE: 532
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price'], $product_info['tax_class_id'], $this->config->get('config
+LINE: 327
+CODE: foreach ($discounts as $discount) {
+LINE: 313
+
+FILE: catalog/view/theme/default/template/product/product.twig
+REGEX: ~({{ *footer *}})~
+LINE: 584
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 23
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 23
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Parent-child Options / Родительские опции
+CODE: function getForm() {
+LINE: 535
+CODE: $data['product_options'][] = array(
+LINE: 1029
+CODE: $option_data[] = array(
+LINE: 1371
+CODE: function getProductOptions($product_id
+LINE: 555
+CODE: $product_option_data[] = array(
+LINE: 585
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 55
+LINE: 236
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 67
+LINE: 85
+LINE: 266
+LINE: 284
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 82
+LINE: 115
+LINE: 311
+LINE: 344
+REGEX: ~(\$this->db->query\("INSERT INTO " \. DB_PREFIX \. "product_option_value[ \t\n]\X*?"\);)~
+LINE: 88
+LINE: 317
+CODE: $this->cache->delete('product');
+LINE: 251
+LINE: 532
+LINE: 603
+CODE: {{ footer }}
+LINE: 1679
+CODE: $('#tab-option .tab-content').append(html);
+LINE: 1458
+CODE: <input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" />
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function index() {
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 16
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 380
+CODE: public function getProduct($product_id) {
+LINE: 616
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 808
+CODE: return $product_option_data;
+LINE: 398
+REGEX: ~({{[ ]*footer[ ]*}})~
+LINE: 591
+
+FILE: admin/controller/sale/order.php
+CODE: public function getForm(
+LINE: 413
+
+FILE: admin/view/template/sale/order_form.twig
+CODE: $('#option').html(
+LINE: 1375
+LINE: 1406
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-05-23 23:17:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Live Price / Живая цена
+
+FILE: system/engine/router.php
+CODE: while ($action instanceof Action) {
+LINE: 63
+
+FILE: admin/controller/catalog/product.php
+CODE: $this->load->language('catalog/product');
+LINE: 12
+LINE: 29
+LINE: 88
+LINE: 147
+LINE: 208
+CODE: function getForm()
+LINE: 533
+CODE: 'price'             => $product_discount['price'],
+LINE: 1059
+CODE: 'price'             => $product_special['price'],
+LINE: 1084
+
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_discount
+LINE: 74
+LINE: 229
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_special
+LINE: 92
+LINE: 261
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: {% if product_option_value.price_prefix == '-' %}
+LINE: 675
+CODE: $('#option-value' + option_row + ' tbody').append(html);
+LINE: 1527
+
+FILE: admin/controller/catalog/option.php
+CODE: $this->load->language('catalog/option');
+LINE: 10
+LINE: 25
+LINE: 62
+LINE: 99
+LINE: 450
+CODE: protected function getForm() {
+LINE: 273
+CODE: if (isset($this->request->post['option_value'])) {
+LINE: 373
+LINE: 438
+
+FILE: admin/model/catalog/option.php
+CODE: $option_id = $this->db->getLastId();
+LINE: 10
+CODE: public function editOption(
+LINE: 36
+
+FILE: admin/view/template/catalog/option_form.twig
+CODE: <input type="text" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control" />
+LINE: 194
+
+FILE: system/library/cart/cart.php
+CODE: public function __construct($registry) {
+LINE: 12
+CODE: $product_data[] = array(
+LINE: 532
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 13
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price'], $product_info['tax_class_id'], $this->config->get('config
+LINE: 351
+CODE: foreach ($discounts as $discount) {
+LINE: 333
+
+FILE: catalog/view/theme/default/template/product/product.twig
+REGEX: ~({{ *footer *}})~
+LINE: 545
+LINE: 780
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 23
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 23
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Parent-child Options / Родительские опции
+CODE: function getForm() {
+LINE: 535
+CODE: $data['product_options'][] = array(
+LINE: 1029
+CODE: $option_data[] = array(
+LINE: 1371
+CODE: function getProductOptions($product_id
+LINE: 555
+CODE: $product_option_data[] = array(
+LINE: 585
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 55
+LINE: 236
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 67
+LINE: 85
+LINE: 266
+LINE: 284
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 82
+LINE: 115
+LINE: 311
+LINE: 344
+REGEX: ~(\$this->db->query\("INSERT INTO " \. DB_PREFIX \. "product_option_value[ \t\n]\X*?"\);)~
+LINE: 88
+LINE: 317
+CODE: $this->cache->delete('product');
+LINE: 251
+LINE: 532
+LINE: 603
+CODE: {{ footer }}
+LINE: 1679
+CODE: $('#tab-option .tab-content').append(html);
+LINE: 1458
+CODE: <input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" />
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function index() {
+LINE: 14
+CODE: foreach ($this->model_catalog_product->getProductOptions(
+LINE: 358
+CODE: $data['reviews']
+LINE: 429
+LINE: 619
+LINE: 632
+CODE: $data['product_id'] =
+LINE: 276
+
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 16
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 380
+CODE: public function getProduct($product_id) {
+LINE: 616
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 808
+CODE: return $product_option_data;
+LINE: 398
+REGEX: ~({{[ ]*footer[ ]*}})~
+LINE: 552
+LINE: 794
+
+FILE: admin/controller/sale/order.php
+CODE: public function getForm(
+LINE: 413
+
+FILE: admin/view/template/sale/order_form.twig
+CODE: $('#option').html(
+LINE: 1375
+LINE: 1406
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 18:38:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Live Price / Живая цена
+
+FILE: system/engine/router.php
+CODE: while ($action instanceof Action) {
+LINE: 63
+
+FILE: admin/controller/catalog/product.php
+CODE: $this->load->language('catalog/product');
+LINE: 12
+LINE: 29
+LINE: 88
+LINE: 147
+LINE: 208
+CODE: function getForm()
+LINE: 533
+CODE: 'price'             => $product_discount['price'],
+LINE: 1059
+CODE: 'price'             => $product_special['price'],
+LINE: 1084
+
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_discount
+LINE: 74
+LINE: 229
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_special
+LINE: 92
+LINE: 261
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: {% if product_option_value.price_prefix == '-' %}
+LINE: 675
+CODE: $('#option-value' + option_row + ' tbody').append(html);
+LINE: 1527
+
+FILE: admin/controller/catalog/option.php
+CODE: $this->load->language('catalog/option');
+LINE: 10
+LINE: 25
+LINE: 62
+LINE: 99
+LINE: 450
+CODE: protected function getForm() {
+LINE: 273
+CODE: if (isset($this->request->post['option_value'])) {
+LINE: 373
+LINE: 438
+
+FILE: admin/model/catalog/option.php
+CODE: $option_id = $this->db->getLastId();
+LINE: 10
+CODE: public function editOption(
+LINE: 36
+
+FILE: admin/view/template/catalog/option_form.twig
+CODE: <input type="text" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control" />
+LINE: 194
+
+FILE: system/library/cart/cart.php
+CODE: public function __construct($registry) {
+LINE: 12
+CODE: $product_data[] = array(
+LINE: 553
+
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 13
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price'], $product_info['tax_class_id'], $this->config->get('config
+LINE: 351
+CODE: foreach ($discounts as $discount) {
+LINE: 333
+
+FILE: catalog/view/theme/default/template/product/product.twig
+REGEX: ~({{ *footer *}})~
+LINE: 545
+LINE: 780
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 23
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 23
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: LIVEOPENCART: Parent-child Options / Родительские опции
+CODE: function getForm() {
+LINE: 535
+CODE: $data['product_options'][] = array(
+LINE: 1029
+CODE: $option_data[] = array(
+LINE: 1371
+CODE: function getProductOptions($product_id
+LINE: 555
+CODE: $product_option_data[] = array(
+LINE: 585
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 55
+LINE: 236
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 67
+LINE: 85
+LINE: 266
+LINE: 284
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET
+LINE: 82
+LINE: 115
+LINE: 311
+LINE: 344
+REGEX: ~(\$this->db->query\("INSERT INTO " \. DB_PREFIX \. "product_option_value[ \t\n]\X*?"\);)~
+LINE: 88
+LINE: 317
+CODE: $this->cache->delete('product');
+LINE: 251
+LINE: 532
+LINE: 603
+CODE: {{ footer }}
+LINE: 1679
+CODE: $('#tab-option .tab-content').append(html);
+LINE: 1458
+CODE: <input type="hidden" name="product_option[{{ option_row }}][product_option_value][{{ option_value_row }}][product_option_value_id]" value="{{ product_option_value.product_option_value_id }}" />
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function index() {
+LINE: 14
+CODE: foreach ($this->model_catalog_product->getProductOptions(
+LINE: 358
+CODE: $data['reviews']
+LINE: 429
+LINE: 619
+LINE: 632
+CODE: $data['product_id'] =
+LINE: 276
+
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 57
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 35
+LINE: 426
+CODE: public function getProduct($product_id) {
+LINE: 616
+CODE: 'product_option_id'    => $product_option['product_option_id'],
+LINE: 808
+CODE: return $product_option_data;
+LINE: 54
+LINE: 452
+REGEX: ~({{[ ]*footer[ ]*}})~
+LINE: 552
+LINE: 794
+
+FILE: admin/controller/sale/order.php
+CODE: public function getForm(
+LINE: 413
+
+FILE: admin/view/template/sale/order_form.twig
+CODE: $('#option').html(
+LINE: 1375
+LINE: 1406
+CODE: $loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:31:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:31:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:32:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:32:59 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:33:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:33:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:33:49 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:34:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:34:55 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:54:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 19:56:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 20:12:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------
+2021-06-05 20:14:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 75
+LINE: 81
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Opencart SHOPPING CART REST API
+
+FILE: catalog/model/account/customer.php
+CODE: class ModelAccountCustomer extends Model {
+LINE: 92
+
+FILE: catalog/model/account/order.php
+CODE: class ModelAccountOrder extends Model {
+LINE: 284
+CODE: return array(
+LINE: 330
+
+FILE: catalog/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 1001
+
+FILE: system/library/cart/currency.php
+CODE: public function has($currency) {
+LINE: 125
+
+FILE: system/library/session.php
+CODE: if (!$session_id) {
+LINE: 57
+CODE: class Session {
+LINE: 12
+
+FILE: catalog/model/catalog/category.php
+CODE: public function getCategory($category_id) {
+LINE: 59
+----------------------------------------------------------------
+MOD: Reverse Shell
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($maintenance) {
+LINE: 624
+----------------------------------------------------------------

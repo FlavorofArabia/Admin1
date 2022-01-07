@@ -1,0 +1,153 @@
+{{ header }}
+<div class="main" role="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <section class="section-md">
+      <div class="container">
+        <div class="section-head">
+          <h3 class="cat-head">فهرس الشركة:</h3>
+        </div><!--End section-head-->
+
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-a" class="brand-capital">
+                A
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-b" class="brand-capital">
+                b
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-c" class="brand-capital">
+                c
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-d" class="brand-capital">
+                d
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-e" class="brand-capital">
+                e
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-f" class="brand-capital">
+                f
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-g" class="brand-capital">
+                g
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-h" class="brand-capital">
+                h
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-i" class="brand-capital">
+                i
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-j" class="brand-capital">
+                j
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-k" class="brand-capital">
+                k
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-l" class="brand-capital">
+                l
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-m" class="brand-capital">
+                m
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-n" class="brand-capital">
+                n
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-p" class="brand-capital">
+                p
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-q" class="brand-capital">
+                q
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-r" class="brand-capital">
+                r
+              </a><!--End brand-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-s" class="brand-capital">
+                s
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-t" class="brand-capital">
+                t
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-v" class="brand-capital">
+                v
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+            <div class="col-md-1 col-sm-2 col-xs-3 text-center">
+              <a href="index.php?route=product/manufacturer#capital-y" class="brand-capital">
+                y
+              </a><!--End bannd-capital-->
+            </div><!--End col-->
+
+          </div><!--End row-->
+        </div><!--End section-content-->
+      </div><!--End container-->
+    </section>
+    {% for category in categories  %}
+      <section id="capital-{{ category.name| lower }}" class="section-md capital-brands">
+        <div class="container">
+          <div class="section-head head-border">
+            <h3 class="cat-head">{{ category.name }}</h3>
+          </div><!--End section-head-->
+          <div class="section-content">
+            <div class="row">
+              {% for brand in category.manufacturer %}
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <a class="brand-item" href="{{ brand.href }}">
+                    <img src="{{ brand.image }}" alt="{{ brand.name }}">
+                  </a>
+                </div><!--End col-->
+              {% endfor %}
+            </div><!--End row-->
+          </div><!--End section-content-->
+        </div><!--End container-->
+      </section>
+    {% endfor %}
+  </div><!--End page-content-->
+
+</div><!--End main-->
+
+{{ footer }}

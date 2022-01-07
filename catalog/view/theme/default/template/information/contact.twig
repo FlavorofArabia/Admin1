@@ -1,0 +1,63 @@
+{{ header }}
+<div class="main" role="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <div class="container">
+      <div class="item-box">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="{{ action }}" method="post" enctype="multipart/form-data" id="contact-form">
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input class="form-control" name="name" value="{{ name }}" placeholder="{{ entry_name }}" type="text">
+                  {% if error_name %}
+                    <div class="text-danger">{{ error_name }}</div>
+                  {% endif %}
+                </div><!--End col-md-6-->
+              </div><!--End row-->
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input class="form-control" name="email" value="{{ email }}" placeholder="{{ entry_email }}" type="email">
+                  {% if error_email %}
+                    <div class="text-danger">{{ error_email }}</div>
+                  {% endif %}
+                </div><!--End col-md-12-->
+              </div><!--End row-->
+
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <textarea name="enquiry" rows="7" class="form-control" placeholder="{{ entry_enquiry }}">{{ enquiry }}</textarea>
+                  {% if error_enquiry %}
+                    <div class="text-danger">{{ error_enquiry }}</div>
+                  {% endif %}
+                </div>
+              </div><!--End row-->
+              {{ captcha }}
+              <input class="custom-btn" type="submit" value="{{ button_submit }}" />
+            </form>
+          </div><!--End col-md-8-->
+          <div class="col-md-4">
+            <div class="contact-info">
+              <div class="contact-info-item"><span><i class="fab fa-whatsapp"></i></span><span>{{ telephone }}</span></div><!--End contact-info-item-->
+              <div class="contact-info-item"><span><i class="fa fa-envelope"></i></span><span>{{ store_email}}</span></div><!--End contact-info-item-->
+              <div class="contact-info-item"><span><i class="fa fa-map-marker"></i></span><span> {{ store_address }}</span></div><!--End contact-info-item-->
+            </div><!--End contact-info-->
+          </div><!--End col-md-4-->
+        </div><!--End row-->
+      </div><!--End Item-Box-->
+    </div><!--End container -->
+
+  </div><!--End Page Content-->
+
+</div><!--End main-->
+
+
+{{ footer }}
+

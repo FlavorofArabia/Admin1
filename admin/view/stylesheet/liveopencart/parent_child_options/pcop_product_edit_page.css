@@ -1,0 +1,27 @@
+
+.pcop-marks-container {
+	min-width: 32px;
+	height: 18px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 15px;
+	padding-left: 3px;
+	padding-right: 3px;
+	float: right;
+}
+
+.pcop-mark {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#option .pcop-highlight-child {	
+	color: darkgray;
+}
+#option .pcop-highlight-parent {
+	color: black;
+}

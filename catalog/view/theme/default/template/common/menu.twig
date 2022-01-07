@@ -1,0 +1,33 @@
+<div class="col-md-3 vertical-menu">
+    <h3>
+      {{ text_category }}
+    </h3>
+    <ul class="menu-cont">
+      {% for category in categories %}
+        {% if category.children %}
+          <li class="sub">
+            <a href="{{ category.href }}">
+              <img src="{{ category.icon }}">
+              {{ category.name }}
+            </a>
+
+            <ul class="menu-item-cont">
+              {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
+                  {% for child in children %}
+                    <li><a href="{{ child.href }}">{{ child.name }}</a></li>
+                  {% endfor %}
+              {% endfor %}
+            </ul><!--End menu-item-cont-->
+          </li>
+
+        {% else %}
+          <li><a href="{{ category.href }}">
+              <img src="{{ category.image }}">
+              {{ category.name }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul><!--End vertical-menu-cont-->
+  </div><!--End col-md-3-->

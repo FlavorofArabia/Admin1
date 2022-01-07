@@ -1,0 +1,86 @@
+{{ header }}
+<style>
+  .text-dark{
+    color: #757575;
+  }
+</style>
+<div class="main">
+  <div class="container page-heading">
+    <ul class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--End Container-->
+  <div class="page-content">
+    <section class="section-md">
+      <div class="container">
+        <div class="row">
+          {% if success %}
+            <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> {{ success }}</div>
+          {% endif %}
+          {% if error_warning %}
+            <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+          {% endif %}
+
+          {{ column_right }}
+          <div class="col-md-9">
+
+
+
+            {% if products %}
+              <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th class="product-thumbnail">{{ column_image }}</th>
+                      <th class="product-name">{{ column_name }}</th>
+                      <th class="product-price">{{ column_model }}</th>
+                      <th class="product-quantity">{{ column_stock }}</th>
+                      <th class="product-subtotal">{{ column_price }}</th>
+                      <th class="product-remove">{{ column_action }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                  {% for product in products %}
+                    <tr>
+                      <td class="product-thumbnail">
+                        {% if product.thumb %}
+                        <a href="{{ product.href }}">
+                          <img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" />
+                          </a>
+                        {% endif %}
+                      </td>
+                      <td class="product-name"><a href="{{ product.href }}" class="text-dark">{{ product.name }}</a></td>
+                      <td class="product-price">{{ product.model }}</td>
+                      <td class="product-quantity">{{ product.stock }}</td>
+                      <td class="product-subtotal">{% if product.price %}
+                          <div class="price"> {% if not product.special %}
+                              {{ product.price }}
+                            {% else %} <b>{{ product.special }}</b> <s>{{ product.price }}</s> {% endif %} </div>
+                        {% endif %}
+                      </td>
+                      <td class="product-remove ">
+                        <a href="javascript:;" class="btn btn-info" onclick="cart.add('{{ product.product_id }}');">
+                          <i class="fa fa-shopping-cart"></i>
+                        </a>
+                        <a href="{{ product.remove }}" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger"><i class="fa fa-times"></i></a></td>
+                    </tr>
+
+
+                  {% endfor %}
+                  </tbody>
+
+                </table>
+              </div>
+            {% else %}
+              <p>{{ text_empty }}</p>
+            {% endif %}
+          </div><!--End Col-md-9-->
+
+        </div><!--End Row-->
+      </div><!-- End container -->
+    </section><!-- End Section -->
+  </div><!--End Page-content-->
+  {{ footer }}

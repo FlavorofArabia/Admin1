@@ -1,0 +1,104 @@
+  <div class="page-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="item-box">
+            <h3 class="head-border">{{ latest_products_category }}</h3>
+            <div class="row">
+              <div class="three_carousel">
+                {% for product in latest_products %}
+                <div class="item">
+                  <div class="product-item">
+                    <a class="product-img" href="{{ product.href }}">
+                      <img src="{{ product.thumb }}">
+                    </a><!--End product-img-->
+                    <div class="product-cont">
+                      <div class="product-cont-det">
+                        <h3 class="title">
+                          {{ product.name }}
+                        </h3>
+                       
+                        <div class="price">
+
+
+                            {% if not product.special %}
+                              <span class="price-new">{{ product.price }}</span>
+
+                            {% else %}
+                              <span class="price-new">{{ product.special }}</span>
+                              <br>
+                              <span class="price-old">{{ product.price }}</span>
+                            {% endif %}
+
+                        </div>
+                      </div><!--End product-cont-det-->
+                      <div class="product-cont-actions">
+                        <a href="javascript:;" class="add-cart" onclick="cart.add('{{ product.product_id }}');">
+                          اضف للسلة
+                        </a>
+                       
+                      </div><!--End product-cont-actions-->
+                    </div><!--End product-cont-->
+                  </div><!--widget-item -->
+                </div><!--End Item-->
+                {% endfor %}
+              </div><!--End widgets_carousel-->
+            </div><!--End row-->
+          </div><!--End item-box-->
+           <div class="row">
+            {% for bottom in ads_bottom %}
+            <div class="col-md-6">
+              <div class="item-box no-padding">
+                <img src="{{ bottom.image }}">
+              </div><!--End item-box-->
+            </div><!--End col-md-6-->
+            {% endfor %}
+          </div><!--End Row-->
+          <div class="item-box">
+            <h3 class="head-border">{{ most_view_category }}</h3>
+            <div class="row">
+              <div class="three_carousel">
+                {% for product in most_views %}
+                  <div class="item">
+                    <div class="product-item">
+                      <a class="product-img" href="{{ product.href }}">
+                        <img src="{{ product.thumb }}">
+                      </a><!--End product-img-->
+                      <div class="product-cont">
+                        <div class="product-cont-det">
+                          <h3 class="title">
+                            {{ product.name }}
+                          </h3>
+                         
+                          <div class="price">
+
+
+                            {% if not product.special %}
+                              <span class="price-new">{{ product.price }}</span>
+
+                            {% else %}
+                              <span class="price-new">{{ product.special }}</span>
+                              <br>
+                              <span class="price-old">{{ product.price }}</span>
+                            {% endif %}
+
+                          </div>
+                        </div><!--End product-cont-det-->
+                        <div class="product-cont-actions">
+                          <a href="javascript:;" class="add-cart" onclick="cart.add('{{ product.product_id }}');">
+                            اضف للسلة
+                          </a>
+                        
+                        </div><!--End product-cont-actions-->
+                      </div><!--End product-cont-->
+                    </div><!--widget-item -->
+                  </div><!--End Item-->
+                {% endfor %}
+              </div><!--End widgets_carousel-->
+            </div><!--End row-->
+          </div><!--End item-box-->
+
+        </div><!--End col-md-9-->
+      </div><!--End row-->
+    </div><!--End container-->
+  </div><!--End page-content-->
